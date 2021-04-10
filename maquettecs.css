@@ -1,14 +1,15 @@
 html,
 body {
   width: 100%;
-  padding: 10px;
+  padding: 0px;
   box-sizing: border-box;
 }
-
 header {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 h2 {
   width: 100%;
   font-size: 20px;
@@ -28,14 +29,12 @@ footer {
   width: 100%;
   background-color: #f2f2f2;
 }
-
 p {
   font-size: 12px;
 }
 section {
   padding: 5px;
 }
-
 aside img {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -45,16 +44,13 @@ aside img {
   object-fit: cover;
   padding: 5px;
 }
-
 * {
   box-sizing: border-box;
 }
-
-.logo {
-  width: 65%;
-  float: left;
+.logo img {
+  width: 20%;
+  height: 100%;
 }
-
 #pseudo {
   padding: 5px;
   border-radius: white;
@@ -64,7 +60,6 @@ aside img {
   text-align: center;
   margin: 10px;
 }
-
 .bouton {
   background-color: #0065fc;
   color: white;
@@ -75,50 +70,43 @@ aside img {
   margin: -10px;
 }
 .menu {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  color: black;
-  text-decoration: none;
-  width: 30%;
-  text-align: right;
-  float: right;
+  display: flex;
+  justify-content: space-between;
 }
-
 .menu > div {
   text-align: right;
-  padding: 5px 0;
+  padding: 0px 0px 0px 200px;
 }
-
+a {
+  color: black;
+  text-decoration: none;
+}
 .menu a:hover {
+  color: black;
   border-top: solid #0065fc;
-  padding-top: 25px;
+  padding-top: 8px;
 }
-
+.inscription a:hover {
+  color: black;
+  border-top: solid #0065fc;
+  padding-top: 8px;
+}
+.inscription {
+  padding-right: 50px;
+}
 .filtres a:hover {
   background-color: #bed8ff;
   width: 100%;
 }
-
-.logocontainer {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
 .annonce {
   display: block;
-  float: left;
 }
-
 .filtres {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-
 .filtre {
   background-color: white;
   color: #0065fc;
@@ -127,24 +115,20 @@ aside img {
   text-align: center;
   margin: 10px;
 }
-
 .filtres i {
   background-color: #deebff;
   border-radius: 100px;
   padding: 10px;
   margin-left: -4px;
 }
-
 .logements img {
   width: 25%;
   margin: 0 auto;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-
 .clearfix {
   background-color: rgb(0, 162, 255);
-  float: left;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
@@ -152,14 +136,12 @@ aside img {
   color: black;
   width: 100%;
 }
-
 .clearfix img {
   width: 25%;
   margin: 0 auto;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-
 .grid-container {
   display: grid;
   align-content: end;
@@ -168,25 +150,20 @@ aside img {
   padding: 10px;
   width: 100%;
 }
-
 .grid-container > div {
   text-align: left;
-  padding: 20px 0;
   font-size: 30px;
 }
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .container {
   float: left;
   width: 100%;
   padding: 2px;
 }
-
 .half {
   float: left;
   width: 25%;
@@ -202,6 +179,7 @@ aside img {
   width: 33.33%;
   padding: 2px;
   padding-right: 10px;
+  align-items: center;
 }
 .twothird {
   float: left;
@@ -209,7 +187,6 @@ aside img {
   padding: 2px;
   background-color: #f2f2f2;
 }
-
 .img-border-radius-top {
   box-sizing: border-box;
   padding: 5px;
@@ -221,11 +198,9 @@ aside img {
   padding: 5px;
   border-radius: 25px 0px 0px 25px;
 }
-
 img {
   height: 180px;
 }
-
 .img-container {
   width: 250px;
   border-radius: 25px 25px 0px 0px;
@@ -243,7 +218,6 @@ img {
   right: 0;
   background-color: white;
 }
-
 .card {
   float: left;
   width: 250px;
@@ -253,20 +227,19 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 5px;
 }
-
 .card-aside {
-  float: left;
+  height: 180px;
   width: 100%;
-  padding: 1px;
+  padding: 3px;
+  margin: 7px;
   border-radius: 25px 25px 25px 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-container-aside {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   margin: 5px;
 }
-
 .card-tall {
   height: 410px;
   border-radius: 25px 25px 0px 0px;
@@ -279,20 +252,17 @@ img {
   height: 100%;
   border-radius: 25px 25px 0px 0px;
 }
-
 .card-tall-padding-bottom {
   height: 250px;
   padding-bottom: 20px;
   border-radius: 25px 25px 0px 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .card-tall-padding-top {
   margin-top: 10px;
   border-radius: 25px 25px 0px 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .card-tall-third {
   height: 150px;
   border-radius: 25px 25px 0px 0px;
@@ -301,7 +271,6 @@ img {
   background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
   background-position: center;
 }
-
 .card-tall-third2 {
   height: 200px;
   margin-top: 10px;
@@ -311,13 +280,11 @@ img {
   background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
   background-position: center;
 }
-
 .img-tall-container {
   background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
   height: 100%;
   border-radius: 25px 25px 0px 0px;
 }
-
 .card-tall-twothird {
   height: 200px;
   margin-top: 1px;
@@ -327,7 +294,6 @@ img {
   background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
   background-position: center;
 }
-
 .card-tall-twothird2 {
   height: 160px;
   margin-top: 1px;
@@ -337,7 +303,6 @@ img {
   background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
   background-position: center;
 }
-
 .card-tall2 {
   height: 410px;
   border-radius: 25px 25px 0px 0px;
@@ -353,7 +318,6 @@ img {
   height: 100%;
   border-radius: 25px 25px 0px 0px;
 }
-
 .card-text-container {
   text-align: center;
   width: 100%;
@@ -364,54 +328,80 @@ img {
   background-color: white;
 }
 
-@media screen and (max-width: 420px) {
-  /* .menu div:nth-child(3) {
-    position: absolute;
-    text-align: end;
-    top: 30px;
-    right: 0;
-  } */
 
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
   .logo img {
-    width: 30%;
-    height: 50%;
+    width: 15%;
+    height: 20%;
   }
 
+  .logo
+  {
+    float:right;
+  }
+  .inscription {
+    display: flex;
+    justify-content: flex-end;
+  }
   .logocontainer {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
   .menu {
-    /* display: flex;
-    height: 50px; */
+    order: 1;
+    width: auto;
+    height: 50px;
+    align-items: flex-end;
+    justify-content: space-around;
   }
-  .pseudo {
+  .menu > div {
+    text-align: right;
+    padding: 0 0 0 0;
+  }
+  #pseudo {
     width: 50%;
   }
-
+  .annonce {
+    width: 100%;
+  }
   .bouton {
     width: 30%;
     height: 80%;
+    background-color: #0065fc;
   }
-
-  .total {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .twothird {
+  /* .fas fa-search
+  {
+    color: white;
+  border-style: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 7px;
+  margin: -10px;
+  } */
+  #total {
     width: 100%;
-    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .twothird {
+    order: 2;
+    width: 100%;
+    padding-right: 15px;
+    background-color: rgb(255, 255, 255);
   }
   .third {
+    order: 1;
     width: 100%;
+    background-color: rgb(255, 255, 255);
   }
-
   .card-tall {
     height: 200px;
   }
-
   .card-tall2 {
     height: 200px;
   }
@@ -419,26 +409,22 @@ img {
     width: 100%;
     text-align: center;
   }
-
   .card-aside {
     width: 100%;
   }
-
   .quarter {
     width: 100%;
   }
-
+  .img-container {
+    width: 100%;
+  }
   .card-container-aside {
     text-align: center;
-    margin: 5px;
+    align-items: center;
   }
-
   footer {
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
   }
-}
-
-@media screen and (min-width: 750px) and (max-width: 1025) {
 }
