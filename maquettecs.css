@@ -20,6 +20,10 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+h1 
+{
+  margin: 5px;
+}
 h2 {
   width: 100%;
   font-size: 20px;
@@ -112,8 +116,8 @@ a {
 }
 .menu a:hover {
   color: black;
-  border-top: solid #0065fc;
-  padding-top: 1px;
+  border-top: solid 10px #0065fc;
+  padding-top: 3px;
 }
 
 .inscription a {
@@ -386,7 +390,6 @@ img {
     height: 50px;
     align-items: flex-end;
     justify-content: space-around;
-    border-bottom: grey 5px solid;
     padding-bottom: 10px;
   }
   .menu > div {
@@ -398,9 +401,9 @@ img {
     color: black;
     border-bottom: solid 5px #0065fc;
     border-top: white;
-    padding-bottom: 10px;
-    width: 70%;
+    padding-bottom: 1px;
   }
+  
   #pseudo
   {
     width:60%;
