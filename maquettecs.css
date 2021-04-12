@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
 
-body
-{
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+body {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  padding: 5px;
 }
 
 html,
 body {
   width: 100%;
-  padding: 2px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 header {
   width: 100%;
@@ -61,25 +61,40 @@ aside img {
   width: 25%;
   height: 100%;
 }
+.localisation
+{
+  background-color: #f2f2f2;
+  float: left;
+  padding: 9px;
+  height: 40px;
+  width: 40px;
+  border-radius: 3px;
+  margin:0px
+}
+.chercher{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 #pseudo {
-  padding: 4px;
+  padding: 7px;
   color: black;
-  border: 3px solid #f2f2f2;
+  border: 5px solid #f2f2f2;
   text-align: center;
-  margin: -10px;
+  float: left;
+  margin:0px;
 }
 .bouton {
   background-color: #0065fc;
   color: white;
+  padding: 11px;
   border-style: hidden;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  padding: 7px;
-  margin: -10px;
   visibility: visible;
+  float: left;
 }
-.visible
-{
+.visible {
   visibility: hidden;
 }
 
@@ -98,7 +113,7 @@ a {
 .menu a:hover {
   color: black;
   border-top: solid #0065fc;
-  padding-top: 8px;
+  padding-top: 1px;
 }
 
 .inscription a {
@@ -127,7 +142,7 @@ a {
   border-radius: 100px;
   text-align: center;
   margin: 10px;
-  padding:5px;
+  padding: 5px;
 }
 .filtres i {
   background-color: #deebff;
@@ -344,18 +359,17 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   body {
     width: 100%;
+    background-color: rgb(166, 226, 179);
   }
-  h1 
-  {
+  h1 {
     font-size: 20px;
   }
 
   .logo img {
-    width: 15%;
+    width: 20%;
     height: 100%;
   }
 
@@ -370,10 +384,12 @@ img {
   }
   .menu {
     order: 1;
-    width: auto;
+    width: 100%;
     height: 50px;
     align-items: flex-end;
     justify-content: space-around;
+    border-bottom: grey 5px solid;
+    padding-bottom: 5px;
   }
   .menu > div {
     text-align: right;
@@ -383,36 +399,37 @@ img {
   .menu a:hover {
     color: black;
     border-bottom: solid 5px #0065fc;
-    padding-bottom: 5px;
+    border-top: white;
+    padding-bottom: 1px;
   }
-  #pseudo {
-    padding: 11px;
-    color: black;
-    border: 1px solid #f2f2f2;
-    text-align: center;
-    width: 75%;
+  #pseudo
+  {
+    width:60%;
   }
+  .localisation
+  {
+    width: 20%;
+  }
+
   .annonce {
     width: 100%;
   }
   .bouton {
     visibility: hidden;
   }
-  .visible
-  {
+  .visible {
     visibility: visible;
     background-color: #0065fc;
     color: white;
-    width:20%;
-    margin-top: -40px;
-    border-radius: 5px;
-    padding: 10px; 
+    width: 20%;
+    margin-top: -36px;
+    border-radius: 15px;
+    padding: 10px;
     padding-left: 20px;
     float: right;
-    align-items:center ;
+    align-items: center;
   }
-  .chercher
-  {
+  .chercher {
     width: 100%;
   }
   #total {
