@@ -361,9 +361,7 @@ img {
 
 @media screen and (max-width: 700px) {
   body {
-    width: 100%;
-    background-color: rgb(166, 226, 179);
-  }
+    width: 100%;  }
   h1 {
     font-size: 20px;
   }
@@ -389,7 +387,7 @@ img {
     align-items: flex-end;
     justify-content: space-around;
     border-bottom: grey 5px solid;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
   .menu > div {
     text-align: right;
@@ -400,30 +398,33 @@ img {
     color: black;
     border-bottom: solid 5px #0065fc;
     border-top: white;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
+    width: 70%;
   }
   #pseudo
   {
     width:60%;
+    padding-right: -5px;
   }
   .localisation
   {
     width: 20%;
   }
-
   .annonce {
     width: 100%;
   }
   .bouton {
     visibility: hidden;
+    width: 0%;
   }
   .visible {
     visibility: visible;
     background-color: #0065fc;
     color: white;
     width: 20%;
-    margin-top: -36px;
+    margin-top: -43px;
     border-radius: 15px;
+    border: solid #f2f2f2 5px;
     padding: 10px;
     padding-left: 20px;
     float: right;
@@ -431,6 +432,7 @@ img {
   }
   .chercher {
     width: 100%;
+    padding-right: 0px;
   }
   #total {
     width: 100%;
