@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(./Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+body
+{
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
 html,
 body {
   width: 100%;
@@ -53,12 +63,11 @@ aside img {
 }
 #pseudo {
   padding: 5px;
-  border-radius: white;
   color: black;
-  border: 1px solid #deebff;
+  border: 1px solid #002763;
   border-radius: 100px;
   text-align: center;
-  margin: 10px;
+  margin: 8px;
 }
 .bouton {
   background-color: #0065fc;
@@ -91,8 +100,10 @@ a {
   border-top: solid #0065fc;
   padding-top: 8px;
 }
-.inscription {
+.inscription a {
   padding-right: 50px;
+  color: #0065fc;
+  text-decoration: none;
 }
 .filtres a:hover {
   background-color: #bed8ff;
@@ -101,6 +112,7 @@ a {
 .annonce {
   display: block;
 }
+
 .filtres {
   display: flex;
   align-items: center;
@@ -335,13 +347,9 @@ img {
   }
   .logo img {
     width: 15%;
-    height: 20%;
+    height: 100%;
   }
 
-  .logo
-  {
-    float:right;
-  }
   .inscription {
     display: flex;
     justify-content: flex-end;
@@ -373,15 +381,6 @@ img {
     height: 80%;
     background-color: #0065fc;
   }
-  /* .fas fa-search
-  {
-    color: white;
-  border-style: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  padding: 7px;
-  margin: -10px;
-  } */
   #total {
     width: 100%;
     display: flex;
@@ -397,7 +396,7 @@ img {
   .third {
     order: 1;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #f2f2f2;
   }
   .card-tall {
     height: 200px;
