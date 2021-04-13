@@ -83,6 +83,7 @@ aside img {
 #pseudo {
   padding: 7px;
   color: black;
+  font-weight: bold;
   border: 5px solid #f2f2f2;
   text-align: center;
   float: left;
@@ -108,7 +109,7 @@ aside img {
 }
 .menu > div {
   text-align: right;
-  padding: 0px 0px 0px 200px;
+  padding: 0px 0px 0px 100px;
 }
 a {
   color: black;
@@ -145,7 +146,7 @@ a {
   border: 1px solid #deebff;
   border-radius: 100px;
   text-align: center;
-  margin: 10px;
+  margin: 15px;
   padding: 5px;
 }
 .filtres i {
@@ -196,6 +197,8 @@ a {
   float: left;
   width: 100%;
   padding: 2px;
+  font-weight: bold;
+
 }
 .half {
   float: left;
@@ -219,6 +222,7 @@ a {
   width: 66.66%;
   padding: 2px;
   background-color: #f2f2f2;
+  text-align: center;
 }
 .img-border-radius-top {
   box-sizing: border-box;
@@ -234,6 +238,13 @@ a {
 img {
   height: 180px;
 }
+.afficher
+{
+  width: 100%;
+  display: flex;
+  align-items:flex-start; 
+  justify-content: flex-start;
+}
 .img-container {
   width: 250px;
   border-radius: 25px 25px 0px 0px;
@@ -243,7 +254,6 @@ img {
   float: left;
 }
 .card-container {
-  text-align: center;
   width: 100%;
   padding: 2px;
   border-radius: 0px 0px 25px 25px;
@@ -278,9 +288,12 @@ img {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .img-tall-container {
   background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-repeat: no-repeat;
   height: 100%;
   border-radius: 25px 25px 25px 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -303,6 +316,7 @@ img {
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
   background-position: center;
+  background-repeat: no-repeat;
 }
 .card-tall-third2 {
   height: 200px;
@@ -312,9 +326,11 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
   background-position: center;
+  background-repeat: no-repeat;
 }
 .img-tall-container {
   background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-repeat: no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 100%;
   border-radius: 25px 25px 0px 0px;
@@ -326,6 +342,7 @@ img {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  background-repeat: no-repeat;
   background-position: center;
 }
 .card-tall-twothird2 {
@@ -335,6 +352,7 @@ img {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  background-repeat: no-repeat;
   background-position: center;
 }
 .card-tall2 {
@@ -348,6 +366,7 @@ img {
 }
 .img-tall-container {
   background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-repeat: no-repeat;
   background-position: center;
   height: 100%;
   border-radius: 25px 25px 0px 0px;
@@ -363,15 +382,18 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   body {
     width: 100%;  }
   h1 {
     font-size: 20px;
   }
-
+  .logo
+  {
+    width: 30%;
+  }
   .logo img {
-    width: 20%;
+    width: 50%;
     height: 100%;
   }
 
@@ -390,7 +412,8 @@ img {
     height: 50px;
     align-items: flex-end;
     justify-content: space-around;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: solid #f2f2f2 2px;
   }
   .menu > div {
     text-align: right;
@@ -399,9 +422,9 @@ img {
 
   .menu a:hover {
     color: black;
-    border-bottom: solid 5px #0065fc;
+    border-bottom: solid 3px #0065fc;
     border-top: white;
-    padding-bottom: 1px;
+    padding-bottom: 15px;
   }
   
   #pseudo
@@ -454,22 +477,20 @@ img {
     width: 100%;
     background-color: #f2f2f2;
   }
-  .card-tall {
-    height: 200px;
+
+  #anrea
+  {
+    width: 100%;
   }
-  .card-tall2 {
-    height: 200px;
-  }
+
   .card {
     width: 100%;
     text-align: center;
   }
   .card-aside {
     width: 100%;
-  }
-  .quarter {
-    width: 100%;
-  }
+  }  
+
   .img-container {
     width: 100%;
   }
