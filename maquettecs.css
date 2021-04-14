@@ -503,7 +503,6 @@ img {
   {
    height: 150px;
   }
-
   .card {
     width: 100%;
     text-align: center;
@@ -511,7 +510,10 @@ img {
   .card-aside {
     width: 100%;
   }  
-
+  .card-text-container {
+    text-align: left;
+    padding: 15px;
+  }
   .img-container {
     width: 100%;
   }
