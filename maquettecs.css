@@ -149,6 +149,11 @@ a {
   margin: 15px;
   padding: 5px;
 }
+
+.fiiltre
+{
+  font-weight: bold;
+}
 .filtres i {
   background-color: #deebff;
   border-radius: 100px;
@@ -477,10 +482,26 @@ img {
     width: 100%;
     background-color: #f2f2f2;
   }
-
-  #anrea
+  .card-container
+  {
+    text-align: left;
+    padding-left: 25px;
+  }
+  .quarter
   {
     width: 100%;
+  }
+  .card-tall
+  {
+    height: 150px;
+  }
+  .card-tall2
+  {
+    height: 150px;
+  }
+  .card-tall-twothird
+  {
+   height: 150px;
   }
 
   .card {
@@ -495,8 +516,9 @@ img {
     width: 100%;
   }
   .card-container-aside {
-    text-align: center;
+    text-align: left;
     align-items: center;
+    margin: 0;
   }
   footer {
     display: flex;
