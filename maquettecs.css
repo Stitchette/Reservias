@@ -31,9 +31,7 @@ h2 {
 h3 {
   font-size: 15px;
 }
-aside {
-  background-color: #f2f2f2;
-}
+
 footer {
   display: grid;
   align-content: end;
@@ -212,22 +210,25 @@ a {
 }
 .quarter {
   float: left;
-  width: 25%;
   padding: 10px;
 }
 .third {
+  background-color: #f2f2f2;
   float: left;
   width: 33%;
   padding: 2px;
   padding-right: 10px;
   align-items: center;
+  border-radius: 20px;
 }
 .twothird {
   float: left;
-  width: 66%;
+  width: 60%;
   padding: 2px;
+  margin-right: 25px;
   background-color: #f2f2f2;
-  text-align: center;
+  border-radius: 20px;
+  text-align: left;
 }
 .img-border-radius-top {
   box-sizing: border-box;
@@ -241,8 +242,7 @@ a {
   border-radius: 25px 0px 0px 25px;
 }
 img {
-  height: 180px;
-}
+  height: 180px;}
 .afficher
 {
   width: 100%;
@@ -258,9 +258,10 @@ img {
   border-radius: 25px;
   float: left;
 }
+
 .card-container {
   width: 100%;
-  padding: 2px;
+  padding-left: 8px;
   border-radius: 0px 0px 25px 25px;
   bottom: 0;
   right: 0;
@@ -283,99 +284,94 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-container-aside {
-  text-align: center;
+  text-align: left;
   padding: 15px;
   margin: 5px;
 }
 .card-tall {
-  height: 410px;
+  height: 200px;
+  float: left;
+  position: relative;
+  object-fit: cover;
   border-radius: 25px 25px 0px 0px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
+
+
+
+
+
 .img-tall-container {
-  background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-  background-repeat: no-repeat;
+  width: 25%;
   height: 100%;
   border-radius: 25px 25px 25px 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-tall-padding-bottom {
-  height: 250px;
   padding-bottom: 20px;
+  float: left;
   border-radius: 25px 25px 25px 25px;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
 .card-tall-padding-top {
+  float: left;
   margin-top: 10px;
   border-radius: 25px 25px 25px 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-tall-third {
+  float: left;
+  width: 25%;
   height: 150px;
   border-radius: 25px 25px 0px 0px;
   background-color: white;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .card-tall-third2 {
-  height: 200px;
+  float: left;
   margin-top: 10px;
   border-radius: 25px 25px 0px 0px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .img-tall-container {
-  background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-  background-repeat: no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 100%;
   border-radius: 25px 25px 0px 0px;
 }
 .card-tall-twothird {
+  float: left;
+  width: 25%;
   height: 200px;
   margin-top: 1px;
   border-radius: 25px 25px 0px 0px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .card-tall-twothird2 {
+  width: 25%;
   height: 160px;
   margin-top: 1px;
   border-radius: 25px 25px 0px 0px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+
 }
 .card-tall2 {
+  width: 25%;
   height: 410px;
   border-radius: 25px 25px 0px 0px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
-.img-tall-container {
+/* .img-tall-container {
   background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
   border-radius: 25px 25px 0px 0px;
-}
+} */
 .card-text-container {
   text-align: center;
   width: 100%;
@@ -479,6 +475,7 @@ img {
   }
   .third {
     order: 1;
+    padding-left: 15px;
     width: 100%;
     background-color: #f2f2f2;
   }
