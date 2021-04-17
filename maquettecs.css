@@ -44,9 +44,7 @@ footer {
 p {
   font-size: 12px;
 }
-section {
-  padding: 5px;
-}
+
 aside img {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -196,21 +194,11 @@ a {
   clear: both;
   display: table;
 }
-.container {
-  float: left;
-  width: 100%;
-  padding: 2px;
-  font-weight: bold;
 
-}
 .half {
   float: left;
   width: 25%;
   padding: 2px;
-}
-.quarter {
-  float: left;
-  padding: 10px;
 }
 .third {
   background-color: #f2f2f2;
@@ -230,30 +218,16 @@ a {
   border-radius: 20px;
   text-align: left;
 }
-.img-border-radius-top {
-  box-sizing: border-box;
-  padding: 5px;
-  border-radius: 25px 25px 0px 0px;
-  width: 100%;
-}
-.img-border-radius-aside {
-  box-sizing: border-box;
-  padding: 5px;
-  border-radius: 25px 0px 0px 25px;
-}
-img {
-  height: 180px;}
-.afficher
-{
-  width: 100%;
-  display: flex;
-  align-items:flex-start; 
-  justify-content: flex-start;
-}
-.img-container {
+.card {
+  float: left;
   width: 250px;
-  border-radius: 25px 25px 0px 0px;
+  padding: 1px;
+  border-radius: 25px 25px 25px 25px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
 }
+
 .img-container-aside {
   border-radius: 25px;
   float: left;
@@ -267,15 +241,7 @@ img {
   right: 0;
   background-color: white;
 }
-.card {
-  float: left;
-  width: 250px;
-  padding: 1px;
-  border-radius: 25px 25px 25px 25px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 5px;
-}
+
 .card-aside {
   height: 180px;
   width: 100%;
@@ -288,99 +254,95 @@ img {
   padding: 15px;
   margin: 5px;
 }
-.card-tall {
-  height: 200px;
-  float: left;
-  position: relative;
-  object-fit: cover;
-  border-radius: 25px 25px 0px 0px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-
-
-
-.img-tall-container {
-  width: 25%;
-  height: 100%;
-  border-radius: 25px 25px 25px 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.card-tall-padding-bottom {
-  padding-bottom: 20px;
-  float: left;
-  border-radius: 25px 25px 25px 25px;
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
-}
-.card-tall-padding-top {
-  float: left;
-  margin-top: 10px;
-  border-radius: 25px 25px 25px 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.card-tall-third {
-  float: left;
-  width: 25%;
-  height: 150px;
-  border-radius: 25px 25px 0px 0px;
-  background-color: white;
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.card-tall-third2 {
-  float: left;
-  margin-top: 10px;
-  border-radius: 25px 25px 0px 0px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.img-tall-container {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 100%;
-  border-radius: 25px 25px 0px 0px;
-}
-.card-tall-twothird {
-  float: left;
-  width: 25%;
-  height: 200px;
-  margin-top: 1px;
-  border-radius: 25px 25px 0px 0px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.card-tall-twothird2 {
-  width: 25%;
-  height: 160px;
-  margin-top: 1px;
-  border-radius: 25px 25px 0px 0px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-.card-tall2 {
-  width: 25%;
-  height: 410px;
-  border-radius: 25px 25px 0px 0px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-/* .img-tall-container {
-  background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  border-radius: 25px 25px 0px 0px;
-} */
-.card-text-container {
-  text-align: center;
+.afficher
+{
   width: 100%;
-  border-radius: 0px 0px 25px 25px;
-  bottom: 0;
-  right: 0;
+  display: flex;
+  align-items:flex-start; 
+  justify-content: flex-start;
+}
+.img-border-radius-top {
+  box-sizing: border-box;
   padding: 5px;
+  border-radius: 25px 25px 0px 0px;
+  width: 100%;
+}
+.img-border-radius-aside {
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 25px 0px 0px 25px;
+}
+img {
+  height: 180px;}
+
+/* acitivté */
+.marseille{
+
+  font-size: 20px;
+  float: left;
+  width: 100%;
+}
+
+.activite{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.act_photo{
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  box-shadow : 5px  5px  5px  rgba( 0 ,  0 ,  0 ,  .2 );
+  width: 100%;
+}
+
+.act_photo img{
+  border-radius: 20px 20px 0 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.taille1{
+  height: 423px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bloc:first-child{
+  padding-left: 0;
+}
+
+.taille2{
+  height: 185px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.taille3{
+  height: 141px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.taille5{
+  height: 141px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.taille6{
+  height: 181px;
+  width: 100%;
+  object-fit: cover;
+}
+.classement{
+  margin: 14px 0 0 20px;
+  height: 36px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
@@ -431,7 +393,6 @@ img {
   #pseudo
   {
     width:60%;
-    padding-right: -5px;
   }
   .localisation
   {
@@ -479,46 +440,44 @@ img {
     width: 100%;
     background-color: #f2f2f2;
   }
-  .card-container
-  {
-    text-align: left;
-    padding-left: 25px;
-  }
-  .quarter
-  {
-    width: 100%;
-  }
-  .card-tall
-  {
-    height: 150px;
-  }
-  .card-tall2
-  {
-    height: 150px;
-  }
-  .card-tall-twothird
-  {
-   height: 150px;
-  }
-  .card {
-    width: 100%;
-    text-align: center;
-  }
-  .card-aside {
-    width: 100%;
-  }  
-  .card-text-container {
-    text-align: left;
-    padding: 15px;
-  }
-  .img-container {
-    width: 100%;
-  }
   .card-container-aside {
     text-align: left;
     align-items: center;
     margin: 0;
   }
+/* activité */
+section 
+{
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+}
+.activite
+{
+ flex-direction: column;
+ width: auto;
+}
+.container
+{
+  padding-bottom: 15px;
+}
+.taille1{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.taille3
+{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.taille5
+{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
   footer {
     display: flex;
     flex-direction: column;
